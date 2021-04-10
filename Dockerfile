@@ -3,3 +3,5 @@ FROM nginx:alpine
 
 # Copy app source
 COPY nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 8080
